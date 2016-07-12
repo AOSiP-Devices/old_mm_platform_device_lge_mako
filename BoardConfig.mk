@@ -33,7 +33,11 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01600000
 TARGET_KERNEL_CONFIG := mako_defconfig
 TARGET_KERNEL_SOURCE := kernel/lge/mako
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8/bin
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9-uber/bin
+
+# Rom toolchain
+
+TARGET_GCC_VERSION_EXP := 4.9-uber
 
 TOUCH_BOOST_DEBUG := false
 

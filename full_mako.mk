@@ -33,7 +33,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 PRODUCT_NAME := full_mako
 PRODUCT_DEVICE := mako
 PRODUCT_BRAND := Android
-PRODUCT_MODEL := AOSP on Mako
+PRODUCT_MODEL := mako
 PRODUCT_MANUFACTURER := LGE
 
 # Inherit from hardware-specific part of the product configuration
