@@ -5,7 +5,7 @@
     "branch":      "m"
   },
   {
-    "repository":  "platform_vendor_lge",
+    "repository":  "DirtyUnicorns/platform_vendor_lge",
     "target_path": "vendor/lge",
   }
 ]
