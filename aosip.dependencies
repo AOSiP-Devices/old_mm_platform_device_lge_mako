@@ -7,6 +7,7 @@
   {
     "repository":  "DirtyUnicorns/platform_vendor_lge",
     "target_path": "vendor/lge",
+    "branch": "m"
   }
 ]
   
