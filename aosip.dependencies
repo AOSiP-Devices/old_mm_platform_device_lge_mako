@@ -5,9 +5,8 @@
     "branch":      "m"
   },
   {
-    "repository":  "DirtyUnicorns/android_vendor_lge",
-    "target_path": "vendor/lge",
-    "branch": "m"
+    "repository":  "platform_vendor_lge",
+    "target_path": "vendor/lge"
   }
 ]
   
